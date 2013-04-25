@@ -13,6 +13,7 @@
 		C5830C2D17294E670005E78E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C5830C2B17294E670005E78E /* Credits.rtf */; };
 		C5830C3017294E670005E78E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5830C2F17294E670005E78E /* AppDelegate.m */; };
 		C5830C3317294E670005E78E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5830C3117294E670005E78E /* MainMenu.xib */; };
+		C5830C3B172952380005E78E /* ColoredView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5830C3A172952380005E78E /* ColoredView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C5830C2E17294E670005E78E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5830C2F17294E670005E78E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C5830C3217294E670005E78E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C5830C39172952380005E78E /* ColoredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredView.h; sourceTree = "<group>"; };
+		C5830C3A172952380005E78E /* ColoredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				C5830C2F17294E670005E78E /* AppDelegate.m */,
 				C5830C3117294E670005E78E /* MainMenu.xib */,
 				C5830C2317294E670005E78E /* Supporting Files */,
+				C5830C39172952380005E78E /* ColoredView.h */,
+				C5830C3A172952380005E78E /* ColoredView.m */,
 			);
 			path = TextAliasingTests;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			files = (
 				C5830C2917294E670005E78E /* main.m in Sources */,
 				C5830C3017294E670005E78E /* AppDelegate.m in Sources */,
+				C5830C3B172952380005E78E /* ColoredView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
