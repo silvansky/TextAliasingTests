@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TextAliasingTests' target in the 'TextAliasingTests' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
